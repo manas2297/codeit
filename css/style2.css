@@ -1,0 +1,9 @@
+.list{
+
+
+margin-top: 100px;
+}
+.list .container .table thead{
+  background-color: #4d636f;
+  color: white;
+}

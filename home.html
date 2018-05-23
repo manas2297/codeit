@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard | CodeIT </title>
+	 <meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+     <style>
+     	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,body{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-inverse{
+
+	height:75px;
+	background-color:black;
+	transition: background-color .5s ease 0s;
+	border:0px;
+}
+.nav{
+	padding-top:10px;
+}
+
+.navbar-inverse .navbar-right >li>a{
+	color:white;
+}
+.dashboard{
+
+	border-bottom:2px solid #eee;
+	margin-top:-20px;
+	padding:20px;
+
+}
+.dashboard .dash{
+	font-size:20px;
+	font-weight:100;
+	color:#a2a2a2;
+}
+
+.ques{
+	margin-top:50px;
+	}
+.ques .container{
+	border-bottom:1px solid #9b9b9b;
+}
+.ques .container section{
+	font-weight:700;
+	font-size:18px;
+	color:#394353;
+}
+.q_box .container{
+
+}
+
+.box{
+	margin-top:30px;
+	border: 2px solid #4e5666;
+	border-radius:8px;
+	height:180px;
+
+}
+
+.b_head{
+	padding-bottom:
+	font-family: 'Montserrat', sans-serif;
+	color:#2a7e37;
+	margin:10px;
+	border-bottom:1px solid #85878b;
+}
+.b_htext{
+	font-weight:bold;
+	margin-bottom:2px;
+}
+.image img {
+	margin-left:10px;
+	margin-top:15px;
+
+}
+.b_text{
+	position:relative;
+	left:70px;
+	top: -40px;
+
+}
+.b_btn{
+position:absolute;
+	top:150px;
+	left:0px;
+	right:0px;
+
+}
+.opaque-navbar.opaque {
+    background-color:#56b65d;
+    border:0px;
+    transition: background-color .5s ease 0s;
+
+}
+     </style>
+
+</head>
+<body>
+
+<div>
+	<div class="navbar navbar-inverse navbar-static-top navbar-fixed-top opaque-navbar">
+		<div class="container">
+			<div class="navbar-header">
+					<a href="index.php" class="navbar-brand" style="vertical-align: middle;"><img src="http://res.cloudinary.com/dshrduotu/image/upload/v1502728586/C_n9mmnb.png" alt="CODEIT" style="height: 50px; width: auto; float: left;"></a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Excercise</a></li>
+			<li><a href="#">IDE</a></li>
+			<li>
+				<div class="dropdown">
+				<button type="button"  class=" btn btn-success dropdown-toggle" data-toggle="dropdown">My Account <span class="caret"></span></button>
+				<ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul></div></li>
+			</ul>
+
+		</div>
+
+	</div>
+</div>
+
+<div class="dashboard">
+	<div class="container">
+	<section class="dash">Dashboard</section>
+	</div>
+</div>
+
+<div class="ques">
+	<div class="container">
+		<section>TRACKS</section>
+
+		</div>
+</div>
+
+<div class="q_box">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="box">
+					<div class="b_head">
+						<h5 class="b_htext">Practice</h5>
+					</div>
+					<div class="image">
+						<img src="http://res.cloudinary.com/dshrduotu/image/upload/c_scale,w_40/v1502788571/practice_q59opj.png">
+					</div>
+					<div class="b_text">
+						<p>Hone your programming skills.<br>Start Practice today.</p>
+
+					</div>
+					<div class="b_btn text-center">
+						<a class="btn btn-success" href="practice.html" type="button">Practice</a>
+					</div>
+					</div>
+				</div>
+
+
+			<div class="col-sm-4">
+				<div class="box">
+					<div class="b_head">
+						<h5 class="b_htext">Compette</h5>
+					</div>
+					<div class="image">
+						<img src="http://res.cloudinary.com/dshrduotu/image/upload/c_scale,h_50,w_45/v1502789479/compette_sa22yk.png">
+					</div>
+					<div class="b_text">
+						<p>Challenge the Best in the World.<br>Join Competition</p>
+
+					</div>
+					<div class="b_btn text-center">
+						<button class="btn btn-success" type="button">Compette</button>
+					</div>
+					</div>
+					</div>
+
+
+
+		<div class="col-sm-4">
+				<div class="box">
+					<div class="b_head">
+						<h5 class="b_htext">Fast Track</h5>
+					</div>
+					<div class="image">
+						<img src="http://res.cloudinary.com/dshrduotu/image/upload/c_scale,h_40,w_50/v1502790122/ftrack_btggva.png">
+					</div>
+					<div class="b_text">
+						<p>Speed Up your coding.</p>
+
+					</div>
+					<div class="b_btn text-center">
+						<button class="btn btn-success" type="button">CodeIt</button>
+					</div>
+					</div>
+				</div>
+
+		</div>
+
+	</div>
+
+</div>
+<hr>
+
+<script>
+
+	$(window).scroll(function(){
+	if($(this).scrollTop()>30){
+		 $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+    }
+
+});
+</script>
+</body>
+</html>

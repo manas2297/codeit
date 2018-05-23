@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<title>E-Query</title>
+<style>
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #1794f5;
+   
+}
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+</style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom" >
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand" > E-QUERY</a>
+		</div>
+	
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+	
+			<ul class="nav navbar-nav" >
+			<li><a href="#home">Home</a>
+			<li><a href="Registration.php">Register</a>
+			</ul>
+		
+			<button type="button" class="btn btn-info navbar-btn navbar-right" id="myBtn" data-toggle="modal" data-target="#myModal">
+			<span class="glyphicon glyphicon-log-in"></span>  Login
+			</button>
+		
+			
+		</div>
+		
+
+	</div>
+	
+</div>
+</nav>
+<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header" style="padding: 35px 50px">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="pull-left"><span class="glyphicon glyphicon"></span> Login</h4>
+				
+			</div>
+		
+			<div class="modal-body" style="padding:40px 50px;">
+				<form role="form" action="">
+					<div class="form-group">
+					<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+					<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+					<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+					<input type="text" class="form-control" id="psw" placeholder="Enter password">
+					</div>
+					<div class="checkbox">
+					<label><input type="checkbox" value="" checked>Remember me</label>
+					</div>
+					<button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+				</form>
+			</div>
+		
+				<div class="modal-footer">
+				<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+				<p>Not a member? <a href="Registration.php">Sign Up</a></p>
+				
+				</div>
+			</div>
+			</div>
+			</div>
+
+
+<div class="jumbotron">
+<br>
+<div class=" container text-center">
+<h1>E-QUERY</h1>
+<p>Have a Question?? Ask Us.</p>
+<div class="btn-group btn-group-lg">
+<a href="#faq" class="btn btn-warning">FAQ</a>
+<a href="" class="btn btn-default">Read</a>
+<a href="" class="btn btn-warning">Post</a>
+
+</div>
+</div>
+</div>
+
+
+<div class="container">
+	<section>
+	<h2>PANEL.<small>Meet the Experts</small></h2>
+	</section>
+
+		<div class="row text-center">
+		<div class="col-lg-4">
+		<img src="images/shivam.jpg" class= "col-md-4 img-responsive" alt="SHIVAM">
+		<blockquote>
+		<p>An Undergraduate From MMMUT, Gorakhpur</p>
+		<footer>Shivam Kumar, Founder of E-QUERY </footer>
+		</blockquote>
+		</div>
+		
+		<div class="col-lg-4">
+		<img src="images/swe.jpg" class= "col-md-4 img-responsive" alt="SHIVAM">
+		<blockquote>
+		<p>An Undergraduate From MMMUT, Gorakhpur</p>
+		<footer>Shwetank Singh, Director of E-QUERY </footer>
+		</blockquote>
+		</div>
+
+		
+		
+		
+		
+		<div class="col-lg-4">
+		<img src="images/PH.jpg" class= "col-md-4 img-responsive" alt="SHIVAM">
+		<blockquote>
+		<p>An Undergraduate From MMMUT, Gorakhpur</p>
+		<footer>Shubhanshu Mishra, manager of E-QUERY </footer>
+		</blockquote>
+		</div>
+
+
+
+		
+		
+</div>
+</section>
+</div>	
+	
+	<section>
+
+
+
+
+
+<!--AboutUs-->
+
+
+<div class="container">
+	<section>
+	<h2>AboutUs. <small>Get to know us.</small></h2>
+	</section>
+	<div class="row">
+		<div class="col-md-6">
+		<h6>MMMUT unversity is a Technological University situated in Gorakhpur</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+		<div class="col-md-6">
+		<h6>All the founder members of this platform are students of this unversity as an under graduate</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+	</div>
+</div>
+
+
+<div class="container" id="faq">
+	<section>
+	<h2>FAQ <small>Frequently Asked Qustions</small></h2>
+	</section>
+	<div class="row">
+		<div class="col-md-6">
+		<h6>1--> What is blogging?</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+		<div class="col-md-6">
+		<h6>Ans--> Online blogging is a platform where we many users post their views or queries etc and experts or other people answer them.</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+		<h6>2--> Can we compare this with quora?</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+		<div class="col-md-6">
+		<h6>Ans--> Yes surely, infact this blogging site is inspired with quora. The only difference is that their database and expert pannel is very vast and they handel queries in a large domain</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+		<h6>3--> What is facebook?</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+		<div class="col-md-6">
+		<h6>Ans-->Facebook is most used social network in this modern era. There are billions of users of facebook. Its CEO is Mark Zuckerberg</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+		<h6>4--> What is an URL? </h6>
+		<br>
+		<br>
+		<br>
+		</div>
+		<div class="col-md-6">
+		<h6>Ans-->URL is the abbreviation of Uniform Resource Locator. It is the global address of documents and other resources on the World Wide Web. For example, www.webopedia.com is a URL. A URL is one type of Uniform Resource Identifier (URI); the generic term for all types of names and addresses that refer to objects on the World Wide Web.
+<br>Parts of a URL-:<br>
+The first part of the URL is called a protocol identifier and it indicates what protocol to use, and the second part is called a resource name and it specifies the IP address or the domain name where the resource is located. The protocol identifier and the resource name are separated by a colon and two forward slashes.</h6>
+		<br>
+		<br>
+		<br>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!--Latest compiled and minified javascript-->
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

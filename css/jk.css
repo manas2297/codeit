@@ -1,0 +1,162 @@
+*{
+	margin:5;
+	padding: 10px;
+}
+
+html,body{
+	height:100%;
+	
+	width:94%;
+}
+h1 {
+  color: rgb(100,150,200);
+  font-family: 'Playfair Display', Algerian,Sherif;
+  font-size: 52px;
+  font-weight: 1000;
+  line-height: 46px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+h3 {
+  color: rgb(100,150,200);
+  font-family: 'Playfair Display', Algerian,Sherif;
+  font-style:oblique;
+  font-size: 25px;
+  font-weight: 1000;
+  line-height: 20px;
+  margin: 0 0 60px 0;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+h2 {
+  color: rgb(350,200,150);
+  font-family: 'Playfair Display', Algerian;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+div.f{
+    margin:auto;
+	background-color:rgb(200,100,150);
+	background-image:url(pic/b.jpg);
+	
+    border-style: double double dashed;
+    
+	border-color:black;
+	border-radius:10px 20px 20px 8px;
+	
+}
+div.f{
+	margin:auto;
+	background-image:url(pic/c.jpg);
+    background-attachment:fixed;
+	border-radius:10px 20px 20px 8px;
+	border-style:solid solid solid solid;
+	border-color:black;
+}
+div.frm{
+	
+	background-image:url(pic/d.jpg);
+    background-attachment:fixed;
+	border-radius:10px 20px 20px 8px;
+	border-style:solid;
+	border-color:green;
+	width:400px;
+	padding:20px 20px 20px 20px;
+}
+.em1{
+	font-family: 'Playfair Display', Algerian;
+	font-size: 20px;
+	
+}
+.pass{
+	font-family: 'Playfair Display', Algerian;
+	font-size: 20px;
+	
+}
+.tx{
+	font-family: 'Playfair Display', Algerian;
+	font-size: 20px;
+	
+}
+.dt{
+	font-family: 'Playfair Display', Algerian;
+	font-size: 20px;
+	
+}
+#male{
+	
+}
+.a{
+	background-color:rgb(200,235,150);
+	padding:10px;
+	font-family: 'Playfair Display', Algerian;
+	font-size: 20px;
+}
+span{
+	font-family:'Playfair Display', Algerian,Sherif;
+	color :rgb(255,235,209);
+	font-size:20px;
+}
+img{
+	border-radius: 50%;
+}
+#r{
+	color: rgba(255,100,100,2);
+  font-family: 'Playfair Display', Algerian;
+  font-size: 20px;
+  font-weight: 2000;
+  line-height: 30px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+div.over{
+	width:400px;
+	height:400px;
+	word-break:keep-all;
+	word-wrap:normal;
+}
+.em1{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+input[input=text],[type=password]
+{
+	
+	background-color:green;
+}
+input[input=text]
+{
+	
+	background-color:green;
+}
+input:focus[input=email]
+{
+	
+	background-color:green;
+}
+li{
+	display:none;
+	background-color:rgb(200,251,100);
+	margin:10px;
+	font-family:'Playfair Display', Algerian;
+}
+div.cil ~p{
+	background-color:red;
+}
